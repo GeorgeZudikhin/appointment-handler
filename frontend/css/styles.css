@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+    color: rgb(0, 86, 139);
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.btn-secondary {
+    background-color: rgb(128, 180, 240);
+    border-radius: 5px;
+    border-color: rgb(0, 86, 139);
+}
+
+.appointmentHeader,
+.appointmentRow {
+    background-color: rgb(221, 241, 250);
+}
+
+.expired {
+    background-color: lightgray;
+}
+
+.voteCheckbox {
+    height: 20px;
+    width: 20px;
+}
+
+input {
+    border-radius: 5px;
+    border-color: rgb(128, 188, 240);
+}
+
+textarea {
+    border-radius: 5px;
+    border-color: rgb(128, 188, 240);
+    border-width: 2px;
+}
